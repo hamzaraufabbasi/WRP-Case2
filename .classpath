@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/animal-sniffer-annotations-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/byte-buddy-1.9.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/checker-qual-2.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/error_prone_annotations-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/guava-27.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/ngwebdriver-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/okhttp-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/okio-1.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-api-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-chrome-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-edge-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-firefox-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-firefox-xpi-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-ie-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-java-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-opera-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-remote-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-safari-driver-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/selenium-support-4.0.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hamza.rauf/eclipse-workspace/Case1/extlib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

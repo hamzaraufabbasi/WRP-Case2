@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-04T15:38:31 PKT" name="Suite" finished-at="2021-06-04T15:39:36 PKT" duration-ms="65662">
+    <groups>
+      <group name="">
+        <method signature="Testcases.T00_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcases@3c130745]" name="T00_clickPopUp_noThanksButton" class="Testcases.Testcases"/>
+        <method signature="Testcases.T01_clickAccountButton()[pri:0, instance:Testcases.Testcases@3c130745]" name="T01_clickAccountButton" class="Testcases.Testcases"/>
+        <method signature="Testcases.T02_clickfacebook_button()[pri:0, instance:Testcases.Testcases@3c130745]" name="T02_clickfacebook_button" class="Testcases.Testcases"/>
+        <method signature="Testcases.T03_entercred()[pri:0, instance:Testcases.Testcases@3c130745]" name="T03_entercred" class="Testcases.Testcases"/>
+        <method signature="Testcases.T04_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcases@3c130745]" name="T04_click_facebook_loginbutton" class="Testcases.Testcases"/>
+        <method signature="Testcases.T05_verifysuccessfullyloggedin()[pri:0, instance:Testcases.Testcases@3c130745]" name="T05_verifysuccessfullyloggedin" class="Testcases.Testcases"/>
+        <method signature="Testcases.T06_clickclothing()[pri:0, instance:Testcases.Testcases@3c130745]" name="T06_clickclothing" class="Testcases.Testcases"/>
+        <method signature="Testcases.T07_Scrolldown()[pri:0, instance:Testcases.Testcases@3c130745]" name="T07_Scrolldown" class="Testcases.Testcases"/>
+        <method signature="Testcasesarabic.T00_arabic_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T00_arabic_clickPopUp_noThanksButton" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T00_arabic_switcharabiclang()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T00_arabic_switcharabiclang" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T00_arabic_xclickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T00_arabic_xclickPopUp_noThanksButton" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T01_arabic_clickAccountButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T01_arabic_clickAccountButton" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T02_arabic_clickfacebook_button()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T02_arabic_clickfacebook_button" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T03_arabic_entercred()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T03_arabic_entercred" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T04_arabic_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T04_arabic_click_facebook_loginbutton" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T05_clickclothing()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T05_clickclothing" class="Testcases.Testcasesarabic"/>
+        <method signature="Testcasesarabic.T06_arabic_Scrolldown()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" name="T06_arabic_Scrolldown" class="Testcases.Testcasesarabic"/>
+      </group> <!--  -->
+    </groups>
+    <test started-at="2021-06-04T15:38:31 PKT" name="Test" finished-at="2021-06-04T15:39:36 PKT" duration-ms="65662">
+      <class name="Testcases.Testcasesarabic">
+        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:17 PKT" name="BeforeSuit" finished-at="2021-06-04T15:38:31 PKT" duration-ms="13937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method signature="T00_arabic_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:31 PKT" name="T00_arabic_clickPopUp_noThanksButton" finished-at="2021-06-04T15:38:36 PKT" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T00_arabic_clickPopUp_noThanksButton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:36 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:36 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T00_arabic_clickPopUp_noThanksButton status=SUCCESS method=Testcasesarabic.T00_arabic_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T00_arabic_switcharabiclang()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:36 PKT" name="T00_arabic_switcharabiclang" finished-at="2021-06-04T15:38:37 PKT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T00_arabic_switcharabiclang -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:37 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:37 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T00_arabic_switcharabiclang status=SUCCESS method=Testcasesarabic.T00_arabic_switcharabiclang()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T00_arabic_xclickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:37 PKT" name="T00_arabic_xclickPopUp_noThanksButton" finished-at="2021-06-04T15:38:47 PKT" duration-ms="10434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T00_arabic_xclickPopUp_noThanksButton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:47 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:47 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T00_arabic_xclickPopUp_noThanksButton status=SUCCESS method=Testcasesarabic.T00_arabic_xclickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T01_arabic_clickAccountButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:47 PKT" name="T01_arabic_clickAccountButton" finished-at="2021-06-04T15:38:48 PKT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_arabic_clickAccountButton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:48 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:48 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T01_arabic_clickAccountButton status=SUCCESS method=Testcasesarabic.T01_arabic_clickAccountButton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T02_arabic_clickfacebook_button()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:48 PKT" name="T02_arabic_clickfacebook_button" finished-at="2021-06-04T15:38:53 PKT" duration-ms="5360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_arabic_clickfacebook_button -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:53 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:53 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_arabic_clickfacebook_button status=SUCCESS method=Testcasesarabic.T02_arabic_clickfacebook_button()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T03_arabic_entercred()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:53 PKT" name="T03_arabic_entercred" finished-at="2021-06-04T15:38:54 PKT" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_arabic_entercred -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:54 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:54 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T03_arabic_entercred status=SUCCESS method=Testcasesarabic.T03_arabic_entercred()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T04_arabic_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:38:54 PKT" name="T04_arabic_click_facebook_loginbutton" finished-at="2021-06-04T15:39:00 PKT" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T04_arabic_click_facebook_loginbutton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:00 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:00 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T04_arabic_click_facebook_loginbutton status=SUCCESS method=Testcasesarabic.T04_arabic_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T05_clickclothing()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:00 PKT" name="T05_clickclothing" finished-at="2021-06-04T15:39:24 PKT" duration-ms="24650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T05_clickclothing -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:24 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:24 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T05_clickclothing status=SUCCESS method=Testcasesarabic.T05_clickclothing()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T06_arabic_Scrolldown()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:24 PKT" name="T06_arabic_Scrolldown" finished-at="2021-06-04T15:39:36 PKT" duration-ms="12177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T06_arabic_Scrolldown -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:36 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:36 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T06_arabic_Scrolldown status=SUCCESS method=Testcasesarabic.T06_arabic_Scrolldown()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:Testcases.Testcasesarabic@cd3fee8]" started-at="2021-06-04T15:39:38 PKT" name="AfterSuit" finished-at="2021-06-04T15:39:38 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
+      </class> <!-- Testcases.Testcasesarabic -->
+      <class name="Testcases.Testcases">
+        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:01 PKT" name="BeforeSuit" finished-at="2021-06-04T15:38:17 PKT" duration-ms="15344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method signature="T00_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:31 PKT" name="T00_clickPopUp_noThanksButton" finished-at="2021-06-04T15:38:36 PKT" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T00_clickPopUp_noThanksButton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:36 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:36 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T00_clickPopUp_noThanksButton status=SUCCESS method=Testcases.T00_clickPopUp_noThanksButton()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T01_clickAccountButton()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:36 PKT" name="T01_clickAccountButton" finished-at="2021-06-04T15:38:37 PKT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T01_clickAccountButton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:37 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:37 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T01_clickAccountButton status=SUCCESS method=Testcases.T01_clickAccountButton()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T02_clickfacebook_button()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:37 PKT" name="T02_clickfacebook_button" finished-at="2021-06-04T15:38:42 PKT" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_clickfacebook_button -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:42 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:42 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_clickfacebook_button status=SUCCESS method=Testcases.T02_clickfacebook_button()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T03_entercred()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:42 PKT" name="T03_entercred" finished-at="2021-06-04T15:38:46 PKT" duration-ms="3789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T03_entercred -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:46 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:46 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T03_entercred status=SUCCESS method=Testcases.T03_entercred()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T04_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:46 PKT" name="T04_click_facebook_loginbutton" finished-at="2021-06-04T15:38:51 PKT" duration-ms="5299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T04_click_facebook_loginbutton -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:51 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:38:51 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T04_click_facebook_loginbutton status=SUCCESS method=Testcases.T04_click_facebook_loginbutton()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T05_verifysuccessfullyloggedin()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:38:51 PKT" name="T05_verifysuccessfullyloggedin" finished-at="2021-06-04T15:39:01 PKT" duration-ms="9779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T05_verifysuccessfullyloggedin -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:01 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:01 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T05_verifysuccessfullyloggedin status=SUCCESS method=Testcases.T05_verifysuccessfullyloggedin()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T06_clickclothing()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:01 PKT" name="T06_clickclothing" finished-at="2021-06-04T15:39:08 PKT" duration-ms="6927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T06_clickclothing -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:08 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:08 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T06_clickclothing status=SUCCESS method=Testcases.T06_clickclothing()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method signature="T07_Scrolldown()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:08 PKT" name="T07_Scrolldown" finished-at="2021-06-04T15:39:22 PKT" duration-ms="13721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T07_Scrolldown -->
+        <test-method is-config="true" signature="invokeScreenshotMethod(org.testng.ITestResult)[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:22 PKT" name="invokeScreenshotMethod" finished-at="2021-06-04T15:39:22 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T07_Scrolldown status=SUCCESS method=Testcases.T07_Scrolldown()[pri:0, instance:Testcases.Testcases@3c130745] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeScreenshotMethod -->
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:Testcases.Testcases@3c130745]" started-at="2021-06-04T15:39:37 PKT" name="AfterSuit" finished-at="2021-06-04T15:39:38 PKT" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
+      </class> <!-- Testcases.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

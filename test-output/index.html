@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\hamza.rauf\eclipse-workspace\Case2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T00_arabic_clickPopUp_noThanksButton">T00_arabic_clickPopUp_noThanksButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T00_arabic_switcharabiclang">T00_arabic_switcharabiclang</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T00_arabic_xclickPopUp_noThanksButton">T00_arabic_xclickPopUp_noThanksButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T00_clickPopUp_noThanksButton">T00_clickPopUp_noThanksButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T01_arabic_clickAccountButton">T01_arabic_clickAccountButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T01_clickAccountButton">T01_clickAccountButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T02_arabic_clickfacebook_button">T02_arabic_clickfacebook_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T02_clickfacebook_button">T02_clickfacebook_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T03_arabic_entercred">T03_arabic_entercred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T03_entercred">T03_entercred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T04_arabic_click_facebook_loginbutton">T04_arabic_click_facebook_loginbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T04_click_facebook_loginbutton">T04_click_facebook_loginbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T05_clickclothing">T05_clickclothing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T05_verifysuccessfullyloggedin">T05_verifysuccessfullyloggedin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcasesarabic" class="method navigator-link" hash-for-method="T06_arabic_Scrolldown">T06_arabic_Scrolldown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T06_clickclothing">T06_clickclothing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Testcases.Testcases" class="method navigator-link" hash-for-method="T07_Scrolldown">T07_Scrolldown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Testcasesarabic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T00_arabic_clickPopUp_noThanksButton">
+                  </a> <!-- T00_arabic_clickPopUp_noThanksButton -->
+                  <span class="method-name">T00_arabic_clickPopUp_noThanksButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T00_arabic_switcharabiclang">
+                  </a> <!-- T00_arabic_switcharabiclang -->
+                  <span class="method-name">T00_arabic_switcharabiclang</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T00_arabic_xclickPopUp_noThanksButton">
+                  </a> <!-- T00_arabic_xclickPopUp_noThanksButton -->
+                  <span class="method-name">T00_arabic_xclickPopUp_noThanksButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T01_arabic_clickAccountButton">
+                  </a> <!-- T01_arabic_clickAccountButton -->
+                  <span class="method-name">T01_arabic_clickAccountButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T02_arabic_clickfacebook_button">
+                  </a> <!-- T02_arabic_clickfacebook_button -->
+                  <span class="method-name">T02_arabic_clickfacebook_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T03_arabic_entercred">
+                  </a> <!-- T03_arabic_entercred -->
+                  <span class="method-name">T03_arabic_entercred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T04_arabic_click_facebook_loginbutton">
+                  </a> <!-- T04_arabic_click_facebook_loginbutton -->
+                  <span class="method-name">T04_arabic_click_facebook_loginbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T05_clickclothing">
+                  </a> <!-- T05_clickclothing -->
+                  <span class="method-name">T05_clickclothing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T06_arabic_Scrolldown">
+                  </a> <!-- T06_arabic_Scrolldown -->
+                  <span class="method-name">T06_arabic_Scrolldown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Testcases.Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T00_clickPopUp_noThanksButton">
+                  </a> <!-- T00_clickPopUp_noThanksButton -->
+                  <span class="method-name">T00_clickPopUp_noThanksButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T01_clickAccountButton">
+                  </a> <!-- T01_clickAccountButton -->
+                  <span class="method-name">T01_clickAccountButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T02_clickfacebook_button">
+                  </a> <!-- T02_clickfacebook_button -->
+                  <span class="method-name">T02_clickfacebook_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T03_entercred">
+                  </a> <!-- T03_entercred -->
+                  <span class="method-name">T03_entercred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T04_click_facebook_loginbutton">
+                  </a> <!-- T04_click_facebook_loginbutton -->
+                  <span class="method-name">T04_click_facebook_loginbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T05_verifysuccessfullyloggedin">
+                  </a> <!-- T05_verifysuccessfullyloggedin -->
+                  <span class="method-name">T05_verifysuccessfullyloggedin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T06_clickclothing">
+                  </a> <!-- T06_clickclothing -->
+                  <span class="method-name">T06_clickclothing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="T07_Scrolldown">
+                  </a> <!-- T07_Scrolldown -->
+                  <span class="method-name">T07_Scrolldown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hamza.rauf\eclipse-workspace\Case2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;9&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;9&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Testcases.Testcases&quot;/&gt;
+      &lt;class name=&quot;Testcases.Testcasesarabic&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name"></span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">T00_arabic_clickPopUp_noThanksButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T00_arabic_switcharabiclang</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T00_arabic_xclickPopUp_noThanksButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T00_clickPopUp_noThanksButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T01_arabic_clickAccountButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T01_clickAccountButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T02_arabic_clickfacebook_button</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T02_clickfacebook_button</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T03_arabic_entercred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T03_entercred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T04_arabic_click_facebook_loginbutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T04_click_facebook_loginbutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T05_clickclothing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T05_verifysuccessfullyloggedin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T06_arabic_Scrolldown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T06_clickclothing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">T07_Scrolldown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'T05_clickclothing')
+data.setCell(0, 2, 'Testcases.Testcasesarabic')
+data.setCell(0, 3, 24650);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'T07_Scrolldown')
+data.setCell(1, 2, 'Testcases.Testcases')
+data.setCell(1, 3, 13721);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'T06_arabic_Scrolldown')
+data.setCell(2, 2, 'Testcases.Testcasesarabic')
+data.setCell(2, 3, 12177);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'T00_arabic_xclickPopUp_noThanksButton')
+data.setCell(3, 2, 'Testcases.Testcasesarabic')
+data.setCell(3, 3, 10434);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'T05_verifysuccessfullyloggedin')
+data.setCell(4, 2, 'Testcases.Testcases')
+data.setCell(4, 3, 9779);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'T06_clickclothing')
+data.setCell(5, 2, 'Testcases.Testcases')
+data.setCell(5, 3, 6927);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'T02_arabic_clickfacebook_button')
+data.setCell(6, 2, 'Testcases.Testcasesarabic')
+data.setCell(6, 3, 5360);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'T00_arabic_clickPopUp_noThanksButton')
+data.setCell(7, 2, 'Testcases.Testcasesarabic')
+data.setCell(7, 3, 5350);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'T00_clickPopUp_noThanksButton')
+data.setCell(8, 2, 'Testcases.Testcases')
+data.setCell(8, 3, 5318);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'T02_clickfacebook_button')
+data.setCell(9, 2, 'Testcases.Testcases')
+data.setCell(9, 3, 5314);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'T04_click_facebook_loginbutton')
+data.setCell(10, 2, 'Testcases.Testcases')
+data.setCell(10, 3, 5299);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'T04_arabic_click_facebook_loginbutton')
+data.setCell(11, 2, 'Testcases.Testcasesarabic')
+data.setCell(11, 3, 5142);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'T03_entercred')
+data.setCell(12, 2, 'Testcases.Testcases')
+data.setCell(12, 3, 3789);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'T03_arabic_entercred')
+data.setCell(13, 2, 'Testcases.Testcasesarabic')
+data.setCell(13, 3, 1506);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'T01_arabic_clickAccountButton')
+data.setCell(14, 2, 'Testcases.Testcasesarabic')
+data.setCell(14, 3, 568);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'T01_clickAccountButton')
+data.setCell(15, 2, 'Testcases.Testcases')
+data.setCell(15, 3, 428);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'T00_arabic_switcharabiclang')
+data.setCell(16, 2, 'Testcases.Testcasesarabic')
+data.setCell(16, 3, 278);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuit</span>
+                <span class="method-start">15344 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">T00_arabic_clickPopUp_noThanksButton</span>
+                <span class="method-start">29433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">T00_clickPopUp_noThanksButton</span>
+                <span class="method-start">29434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T00_clickPopUp_noThanksButton status=SUCCESS method=Testcases.T00_clickPopUp_noThan...)</span>
+                <span class="method-start">34769 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T00_arabic_clickPopUp_noThanksButton status=SUCCESS method=Testcasesarabic.T00_arab...)</span>
+                <span class="method-start">34787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T00_arabic_switcharabiclang</span>
+                <span class="method-start">34788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">T01_clickAccountButton</span>
+                <span class="method-start">34788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T00_arabic_switcharabiclang status=SUCCESS method=Testcasesarabic.T00_arabic_switch...)</span>
+                <span class="method-start">35068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T00_arabic_xclickPopUp_noThanksButton</span>
+                <span class="method-start">35070 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T01_clickAccountButton status=SUCCESS method=Testcases.T01_clickAccountButton()[pri...)</span>
+                <span class="method-start">35218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T02_clickfacebook_button</span>
+                <span class="method-start">35221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T02_clickfacebook_button status=SUCCESS method=Testcases.T02_clickfacebook_button()...)</span>
+                <span class="method-start">40539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T03_entercred</span>
+                <span class="method-start">40542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T03_entercred status=SUCCESS method=Testcases.T03_entercred()[pri:0, instance:Testc...)</span>
+                <span class="method-start">44336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T04_click_facebook_loginbutton</span>
+                <span class="method-start">44337 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T00_arabic_xclickPopUp_noThanksButton status=SUCCESS method=Testcasesarabic.T00_ara...)</span>
+                <span class="method-start">45510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T01_arabic_clickAccountButton</span>
+                <span class="method-start">45512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T01_arabic_clickAccountButton status=SUCCESS method=Testcasesarabic.T01_arabic_clic...)</span>
+                <span class="method-start">46084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T02_arabic_clickfacebook_button</span>
+                <span class="method-start">46085 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T04_click_facebook_loginbutton status=SUCCESS method=Testcases.T04_click_facebook_l...)</span>
+                <span class="method-start">49640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T05_verifysuccessfullyloggedin</span>
+                <span class="method-start">49641 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T02_arabic_clickfacebook_button status=SUCCESS method=Testcasesarabic.T02_arabic_cl...)</span>
+                <span class="method-start">51447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T03_arabic_entercred</span>
+                <span class="method-start">51448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T03_arabic_entercred status=SUCCESS method=Testcasesarabic.T03_arabic_entercred()[p...)</span>
+                <span class="method-start">52956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T04_arabic_click_facebook_loginbutton</span>
+                <span class="method-start">52957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T04_arabic_click_facebook_loginbutton status=SUCCESS method=Testcasesarabic.T04_ara...)</span>
+                <span class="method-start">58101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T05_clickclothing</span>
+                <span class="method-start">58102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T05_verifysuccessfullyloggedin status=SUCCESS method=Testcases.T05_verifysuccessful...)</span>
+                <span class="method-start">59423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T06_clickclothing</span>
+                <span class="method-start">59425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T06_clickclothing status=SUCCESS method=Testcases.T06_clickclothing()[pri:0, instan...)</span>
+                <span class="method-start">66355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T07_Scrolldown</span>
+                <span class="method-start">66357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T07_Scrolldown status=SUCCESS method=Testcases.T07_Scrolldown()[pri:0, instance:Tes...)</span>
+                <span class="method-start">80080 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T05_clickclothing status=SUCCESS method=Testcasesarabic.T05_clickclothing()[pri:0, ...)</span>
+                <span class="method-start">82755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">T06_arabic_Scrolldown</span>
+                <span class="method-start">82759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">invokeScreenshotMethod([TestResult name=T06_arabic_Scrolldown status=SUCCESS method=Testcasesarabic.T06_arabic_Scrolldown()...)</span>
+                <span class="method-start">94939 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuit</span>
+                <span class="method-start">95166 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Testcases.Testcasesarabic</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuit</span>
+                <span class="method-start">96988 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
